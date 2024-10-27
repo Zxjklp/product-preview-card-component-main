@@ -1,0 +1,32 @@
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--Cream);
+  color: var(--Dark-grayish-blue);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+}
+
+.card {
+  max-inline-size: 21.4375rem;
+  /* max-width: 21.4375rem; */
+  background-color: var(--White);
+  border-radius: 10px;
+}
+
+.card__image {
+  height: auto;
+}
