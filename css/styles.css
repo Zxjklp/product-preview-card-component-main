@@ -25,6 +25,17 @@
   --White: hsl(0, 0%, 100%);
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 body {
   background-color: var(--Cream);
   color: var(--Dark-grayish-blue);
@@ -120,12 +131,12 @@ body {
 
 @media (min-width: 90rem) {
   .card {
-    display: flex;
     max-inline-size: 37.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .card__image {
-    block-size: 100%; 
     border-radius: 10px 0 0 10px;
-    aspect-ratio: 600 / 900;
+    aspect-ratio: 2 / 3;
   }
 }
