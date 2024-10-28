@@ -5,8 +5,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/recipe-page-EE6xjHinjH](https://www.frontendmentor.io/solutions/recipe-page-EE6xjHinjH)
-- Live Site URL: [https://zxjklp.github.io/recipe-page-main/](https://zxjklp.github.io/recipe-page-main/)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-wsWege7CEt](https://www.frontendmentor.io/solutions/product-preview-card-component-wsWege7CEt)
+- Live Site URL: [https://zxjklp.github.io/product-preview-card-component-main/](https://zxjklp.github.io/product-preview-card-component-main/)
 
 ### Built With
 
