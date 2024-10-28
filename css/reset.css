@@ -79,6 +79,11 @@ select {
   font-size: inherit;
 }
 
+button,
+a {
+  cursor: pointer;
+}
+
 /* Make sure textareas without a rows attribute are not tiny */
 textarea:not([rows]) {
   min-height: 10em;
